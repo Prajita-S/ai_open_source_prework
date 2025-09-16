@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+}
+
+/* Remove default margins and prevent scrollbars */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background: #000;
+}
+
+#world-canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+
